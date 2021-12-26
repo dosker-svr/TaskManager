@@ -1,0 +1,8 @@
+2021-12-26 11:36:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "TASK" не найдена
+Table "TASK" not found; SQL statement:
+select count(*) as col_0_0_ from task task0_ where task0_.task_id=? [42102-200]
+2021-12-26 11:37:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "TASK" не найдена
+Table "TASK" not found; SQL statement:
+select count(*) as col_0_0_ from task task0_ where task0_.task_id=? [42102-200]

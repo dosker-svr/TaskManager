@@ -1,9 +1,14 @@
 package com.farzoom.TaskManager.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.time.LocalDateTime;
 
+@Entity
+@Table
 public class Task {
-    // TODO: сделать поле id - неизменяемым
+    @Id
     private Long taskId;
     private String name;
     private String description;
@@ -20,10 +25,6 @@ public class Task {
 
     public Long getTaskId() {
         return taskId;
-    }
-
-    public void setTaskId(Long taskId) {
-        this.taskId = taskId;
     }
 
     public String getName() {
